@@ -1,0 +1,115 @@
+.zoom {
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+
+  .contact {
+    width: 480px;
+    height: 100px;
+    position: relative;
+    color:blue;
+    text-shadow: 4px 8px 8px grey;
+  }
+  
+  .map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .gallery:hover{
+    color:brown;
+    text-shadow: 2px 7px 7px greenyellow;
+  }
+      .div{
+          top: 5%;
+  left: 30%;
+    width: 150px;
+    height: 150px;
+    background:grey;
+    transition: width 2s, height 2s, transform 1s;
+    transform:scale(100px 100px white);
+    position: absolute;
+  }
+  .offer{
+     color: black;
+     text-shadow: 3px 7px 7px grey;
+  transform:scalex(50px,100px) linear;
+   transition: all .2s;
+   
+  }
+  .shoe:hover{background-color: blanchedalmond;}
+  .offer:hover{
+      text-shadow: 3px 3px 3px greenyellow;
+      color:pink;
+      
+      transform:scalex(3);
+   
+  }
+  .div:hover {
+    width: 150px;
+    height: 150px;
+    transform:scale(100px 100px white);
+    transform: rotate(360deg);
+  }
+  .shop{transform:scale(100px 100px white);
+  }
+  .shop:hover{
+     
+    transform:scale(100px 100px white);
+  }
+        .shopnow{top: 200px;
+        right: 50px;}
+        .carouselinnerimg{width:100%; height:100;}
+    .centered {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  }
+  
+  .left{
+    position: absolute;
+  top: 5%;
+  left: 10%;
+  }
+  .content {
+  position: absolute;
+  top: 35%;
+  left: 16%;
+  }
+  .contenta {
+  position: absolute;
+  top: 38%;
+  left: 16%;
+  }
+  .contentb {
+  position: absolute;
+  top: -180px;
+  left: 52px;
+  }
+
+#card-style{
+  width: 50px;
+  margin-left: 130px;
+}
+.text{
+  color: rgb(0, 0, 0,0.6);
+  text-align: center;
+}
